@@ -15,16 +15,9 @@ ul {
     --teal: #ecfe24;
 }
 
-#bg_video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-}
-
 body {
+    background: url(https://i.pinimg.com/736x/db/f6/e0/dbf6e0dd436fbd92db92a3fe162e35c9.jpg);
+    background-size: cover;
     color: var(--text-color);
 }
 
