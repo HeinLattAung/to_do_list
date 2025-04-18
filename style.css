@@ -165,10 +165,51 @@ img{
     }
 }
 
+@media screen and (max-width: 970px) {
+    #bg_video {
+        position: fixed;
+        left: -70px;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    #bg_video {
+        position: fixed;
+        left: -100px;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #bg_video {
+        position: fixed;
+        left: -120px;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #bg_video {
+        position: fixed;
+        left: -140px;
+        bottom: 0;
+    }
+    
+}
+
 @media screen and (max-width: 769px) {
     #bg_video {
         position: fixed;
         left: -160px;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #bg_video {
+        position: fixed;
+        left: -200px;
         bottom: 0;
     }
 }
@@ -181,10 +222,34 @@ img{
     }
 }
 
+@media screen and (max-width: 410px) {
+    #bg_video {
+        position: fixed;
+        left: -350px;
+        bottom: 0;
+    }
+}
+
 @media screen and (max-width: 376px) {
     #bg_video {
         position: fixed;
-        left: -380px;
+        left: -360px;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #bg_video {
+        position: fixed;
+        left: -390px;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    #bg_video {
+        position: fixed;
+        left: -400px;
         bottom: 0;
     }
 }
