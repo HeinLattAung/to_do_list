@@ -16,7 +16,8 @@ ul {
 }
 
 body {
-    background: url(https://i.pinimg.com/736x/db/f6/e0/dbf6e0dd436fbd92db92a3fe162e35c9.jpg);
+    position: relative;
+    background: url(https://i.pinimg.com/736x/86/21/ba/8621bad97fe3ea7acd64a29c10c878d6.jpg) no-repeat center center fixed;
     background-size: cover;
     color: var(--text-color);
 }
@@ -88,6 +89,7 @@ input {
     border: 1px solid var(--purple);
     border-radius: 10px;
     outline: none;
+    color: var(--text-color)
 }
 
 button {
@@ -150,133 +152,5 @@ img{
     color: var(--teal);
 }
 
-@media screen and (max-width: 1025px) {
-    #bg_video {
-        position: fixed;
-        left: -30px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 970px) {
-    #bg_video {
-        position: fixed;
-        left: -70px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 910px) {
-    #bg_video {
-        position: fixed;
-        left: -100px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    #bg_video {
-        position: fixed;
-        left: -120px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 810px) {
-    #bg_video {
-        position: fixed;
-        left: -140px;
-        bottom: 0;
-    }
-    
-}
-
-@media screen and (max-width: 769px) {
-    #bg_video {
-        position: fixed;
-        left: -160px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 740px) {
-    #bg_video {
-        position: fixed;
-        left: -200px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 635px) {
-    #bg_video {
-        position: fixed;
-        left: -240px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 535px) {
-    #bg_video {
-        position: fixed;
-        left: -260px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    #bg_video {
-        position: fixed;
-        left: -300px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    #bg_video {
-        position: fixed;
-        left: -340px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    #bg_video {
-        position: fixed;
-        left: -350px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 376px) {
-    #bg_video {
-        position: fixed;
-        left: -360px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    #bg_video {
-        position: fixed;
-        left: -390px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 328px) {
-    #bg_video {
-        position: fixed;
-        left: -400px;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    #bg_video {
-        position: fixed;
-        left: -400px;
-        bottom: 0;
-    }
-}
 
 
